@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: "Nunito", sans-serif;;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    #desconto{
+        width: 100%;
+        text-align: center;
+        padding: 4px 0px;
+
+        background-color: rgba(0, 92, 255, 1);
+        color: rgba(255, 255, 255, 1);
+
+        span{
+            font-weight: 400;
+        }
+
+        span:nth-child(1){
+            background-color: rgba(98, 32, 193, 1);
+            padding: 0px 6px;
+            border-radius: 4px;
+        }
+
+        span:ntc-child(2){
+            font-style: italic;
+        }
+    }
+
+    #navbar{
+        display: flex;
+    }
+}
