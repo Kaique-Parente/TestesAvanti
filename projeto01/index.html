@@ -18,29 +18,30 @@
     <header>
         <div id="desconto"><h5>Ganhe <span>R$10,00</span> de desconto no seu primeiro pedido. Utilize o cupom <span>DESCONTO10</span></h5></div>
 
-        <div>
-            <div id="navbar">
-                <img src="./images/logo.png" alt="Logo Avanti">
-                <div>
+        <div id="navbar">
+            <div id="navbar-content">
+                <img id="navbar-logo" src="./images/logo.png" alt="Logo Avanti">
+                <div id="navbar-input">
                     <input type="text" placeholder="Digite aqui o que você procura">
                     <img src="./images/search.svg" alt="Ícone de lupa">
                 </div>
-                <div>
+                <div id="navbar-icons">
                     <div>
                         <img src="./images/user.svg" alt="Ícone de user">
                         <span>Olá,<br>
-                            Nome cliente!</span>
+                            Nome cliente!
+                        </span>
                     </div>
-                    <div>
+                    <div id="carrinho">
                         <img src="./images/carrinho.svg" alt="Ícone de carrinho">
                         <span>2</span>
                     </div>
                 </div>
             </div>
-            <div>
+            <div id="navbar-links">
                 <button>
                     <img src="./images/details.svg" alt="Ícone Detalhes">
-                    <span>Todas as Categorias</span>
+                    <span><strong>Todas as Categorias</strong></span>
                 </button>
                 <button>
                     <span>Departamento</span>
@@ -71,29 +72,32 @@
     </header>
 
     <main>
-        <div>
-            <img src="./images/background-image.png" alt="Imagem Background">
-            <div>
-                <h1><strong>SUPER</strong>SALE</h1>
-                <p>ITENS SELECIONADOS COM ATÉ</p>
-                <h2>50%OFF</h2>
-            </div>
+        <div id="principal-container">
+            <img src="./images/background-principal.png" alt="Imagem Background">
+            <div id="principal-content">
+                <img src="./images/image-principal.png" alt="Imagem Background">
+                <div>
+                    <h1><strong>SUPER</strong>SALE</h1>
+                    <p>ITENS SELECIONADOS COM ATÉ</p>
+                    <h2>50%OFF</h2>
+                </div>
+            </div> 
         </div>
 
         <section class="lancamentos">
-            <div>
+            <div id="lancamentos-title">
                 <h2>Lançamentos</h2>
-                <p>Ver mais</p>
+                <a href="">Ver mais</a>
             </div>
 
-            <div class="card-container">
+            <div class="carousel-container">
                 <div class="card">
-                    <div class="image-card">
+                    <div class="card-image">
                         <span>NOVO</span>
                         <img src="./images/image-card.png" alt="Imagem card">
                     </div>
 
-                    <div>
+                    <div class="card-text">
                         <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
                         <div>
                             <p>R$ 100,00</p>
