@@ -9,39 +9,43 @@
 
     <title>Home</title>
 
-    <link rel="stylesheet" href="../src/styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/global.css">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/carousel.css">
 </head>
 
 <body>
     <header>
-        <div id="desconto">
+        <div class="desconto">
             <h5>Ganhe <span>R$10,00</span> de desconto no seu primeiro pedido. Utilize o cupom <span>DESCONTO10</span>
             </h5>
         </div>
 
-        <div id="navbar">
-            <div id="navbar-content">
-                <img id="navbar-logo" src="../public/logo.png" alt="Logo Avanti">
-                <div id="navbar-input">
+        <div class="navbar">
+            <div class="navbar-content">
+                <img class="navbar-logo" src="../public/logo.png" alt="Logo Avanti">
+                <div class="navbar-input">
                     <input type="text" placeholder="Digite aqui o que você procura">
                     <img src="../public/search.svg" alt="Ícone de lupa">
                 </div>
-                <div id="navbar-icons">
+                <div class="navbar-icons">
                     <div>
                         <img src="../public/user.svg" alt="Ícone de user">
                         <span>Olá,<br>
                             Nome cliente!
                         </span>
                     </div>
-                    <div id="carrinho">
+                    <div class="carrinho">
                         <img src="../public/carrinho.svg" alt="Ícone de carrinho">
                         <span>2</span>
                     </div>
                 </div>
             </div>
-            <div id="navbar-links">
+            <div class="navbar-links">
                 <button>
                     <img src="../public/details.svg" alt="Ícone Detalhes">
                     <span><strong>Todas as Categorias</strong></span>
@@ -75,9 +79,9 @@
     </header>
 
     <main>
-        <div id="principal-container">
+        <div class="principal-container">
             <img src="../public/banners/principal-banner.png" alt="Imagem Background">
-            <div id="principal-content">
+            <div class="principal-content">
                 <img src="../public/banners/image-principal.png" alt="Imagem Background">
                 <div>
                     <h1><strong>SUPER</strong>SALE</h1>
@@ -338,7 +342,7 @@
                     eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia
                     pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia.
                     Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a
-                    libero commodo egestas efficitur id augue.
+                    libero commodo egestas efficitur class augue.
                 </p>
 
                 <p>
@@ -346,7 +350,7 @@
                     eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia
                     pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia.
                     Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a
-                    libero commodo egestas efficitur id augue.
+                    libero commodo egestas efficitur class augue.
                 </p>
             </div>
         </section>
@@ -398,7 +402,7 @@
                     eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia
                     pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia.
                     Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a
-                    libero commodo egestas efficitur id augue.
+                    libero commodo egestas efficitur class augue.
                 </p>
 
                 <p>
@@ -406,7 +410,7 @@
                     eleifend viverra. Cras efficitur volutpat dui, in lobortis metus lacinia sit amet. Sed lacinia
                     pharetra magna, vel pulvinar ligula hendrerit a. Maecenas fringilla porttitor tortor eget lacinia.
                     Donec sollicitudin euismod orci, auctor fringilla magna consequat interdum. Fusce sagittis elit a
-                    libero commodo egestas efficitur id augue.
+                    libero commodo egestas efficitur class augue.
                 </p>
             </div>
         </section>
@@ -564,19 +568,19 @@
             </div>
         </section>
 
-        <section id="avanti-banner">
+        <section class="avanti-banner">
             <img src="../public/banners/avanti-banner.png" alt="Banner da Avanti">
             <div>
                 <p>Entre em contato conosco e verifique a disponibilidade para sua região!</p>
             </div>
         </section>
 
-        <section id="cadastro">
+        <section class="cadastro">
             <h3>Cadastre-se na nossa <span>newsletter</span></h3>
             <div>
                 <input type="text" placeholder="Digite seu nome">
                 <input type="text" placeholder="Digite seu nome">
-                <input id="politicaPrivacidade" type="checkbox">
+                <input class="politicaPrivacidade" type="checkbox">
                 <label for="politicaPrivacidade">
                     Estou de acordo com a <spa>Política de Privacidade</spa>
                 </label>
