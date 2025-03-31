@@ -1,0 +1,18 @@
+.avanti-banner{
+    position: relative;
+    padding: 0;
+}
+
+.avt-text{
+    background-color: rgba(0, 92, 255, 1);
+    width: 100%;
+    padding: 40px 0px;
+    
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    font-size: 30px;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}

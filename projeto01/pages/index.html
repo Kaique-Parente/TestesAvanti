@@ -16,6 +16,9 @@
     <link rel="stylesheet" href="../styles/header.css">
     <link rel="stylesheet" href="../styles/main.css">
     <link rel="stylesheet" href="../styles/carousel.css">
+    <link rel="stylesheet" href="../styles/banner-p1.css">
+    <link rel="stylesheet" href="../styles/banner-p2.css">
+    <link rel="stylesheet" href="../styles/avanti-banner.css">
 </head>
 
 <body>
@@ -331,11 +334,11 @@
             </div>
         </section>
 
-        <section class="banner-1">
+        <section class="banner banner1">
             <div>
                 <img src="../public/banners/primeiro-banner.png" alt="Imagem Caneca Avanti">
             </div>
-            <div>
+            <div class="bn1-text">
                 <h2>LOREM IPSUM</h2>
                 <p>
                     Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut
@@ -355,29 +358,29 @@
             </div>
         </section>
 
-        <section class="banner-2">
-            <div>
+        <section class="banner banner2">
+            <div class="bn2-content">
                 <h2>LOREM IPSUM</h2>
 
-                <div>
-                    <div>
-                        <img src="../public/pin.svg" alt="Ícone Pin mapa">
+                <div class="bn2-listImg">
+                    <div class="bn2-containerImg">
+                        <div><img src="../public/pin.svg" alt="Ícone Pin mapa"></div>
                         <span>
                             Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
                             ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
                         </span>
                     </div>
 
-                    <div>
-                        <img src="../public/pin.svg" alt="Ícone Pin mapa">
+                    <div class="bn2-containerImg">
+                        <div><img src="../public/pin.svg" alt="Ícone Pin mapa"></div>
                         <span>
                             Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
                             ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
                         </span>
                     </div>
 
-                    <div>
-                        <img src="../public/pin.svg" alt="Ícone Pin mapa">
+                    <div class="bn2-containerImg">
+                        <div><img src="../public/pin.svg" alt="Ícone Pin mapa"></div>
                         <span>
                             Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
                             ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
@@ -391,11 +394,11 @@
             </div>
         </section>
 
-        <section class="banner-1">
+        <section class="banner banner1">
             <div>
                 <img src="../public/banners/primeiro-banner.png" alt="Imagem Caneca Avanti">
             </div>
-            <div>
+            <div class="bn1-text">
                 <h2>LOREM IPSUM</h2>
                 <p>
                     Duis consectetur metus nec lacus auctor dignissim. Mauris vitae finibus dui. Mauris laoreet lacus ut
@@ -416,161 +419,248 @@
         </section>
 
         <section class="lancamentos">
-            <div>
+            <div class="carousel-title">
                 <h2>Lançamentos</h2>
-                <p>Ver mais</p>
+                <a href="">Ver mais</a>
             </div>
 
-            <div class="card-container">
-                <div class="card">
-                    <div class="image-card">
-                        <span>NOVO</span>
-                        <img src="../public/image-card.png" alt="Imagem card">
-                    </div>
+            <div class="carousel">
+                <button class="carousel-seta carousel-seta-esq">
+                    <img src="../public/arrow-left.svg" alt="Ícone de seta para a esquerda">
+                </button>
 
-                    <div>
-                        <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
-                        <div>
-                            <p>R$ 100,00</p>
-                            <h2>R$ 79,90</h2>
-                            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                <div class="carousel-wrapper">
+                    <div class="carousel-container">
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
                         </div>
                     </div>
-
-                    <button>Comprar</button>
                 </div>
-
-                <div class="card">
-                    <div class="image-card">
-                        <span>NOVO</span>
-                        <img src="../public/image-card.png" alt="Imagem card">
-                    </div>
-
-                    <div>
-                        <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
-                        <div>
-                            <p>R$ 100,00</p>
-                            <h2>R$ 79,90</h2>
-                            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
-                        </div>
-                    </div>
-
-                    <button>Comprar</button>
-                </div>
-
-                <div class="card">
-                    <div class="image-card">
-                        <span>NOVO</span>
-                        <img src="../public/image-card.png" alt="Imagem card">
-                    </div>
-
-                    <div>
-                        <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
-                        <div>
-                            <p>R$ 100,00</p>
-                            <h2>R$ 79,90</h2>
-                            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
-                        </div>
-                    </div>
-
-                    <button>Comprar</button>
-                </div>
-
-                <div class="card">
-                    <div class="image-card">
-                        <span>NOVO</span>
-                        <img src="../public/image-card.png" alt="Imagem card">
-                    </div>
-
-                    <div>
-                        <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
-                        <div>
-                            <p>R$ 100,00</p>
-                            <h2>R$ 79,90</h2>
-                            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
-                        </div>
-                    </div>
-
-                    <button>Comprar</button>
-                </div>
-
-                <div class="card">
-                    <div class="image-card">
-                        <span>NOVO</span>
-                        <img src="../public/image-card.png" alt="Imagem card">
-                    </div>
-
-                    <div>
-                        <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
-                        <div>
-                            <p>R$ 100,00</p>
-                            <h2>R$ 79,90</h2>
-                            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
-                        </div>
-                    </div>
-
-                    <button>Comprar</button>
-                </div>
-
-                <div class="card">
-                    <div class="image-card">
-                        <span>NOVO</span>
-                        <img src="../public/image-card.png" alt="Imagem card">
-                    </div>
-
-                    <div>
-                        <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
-                        <div>
-                            <p>R$ 100,00</p>
-                            <h2>R$ 79,90</h2>
-                            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
-                        </div>
-                    </div>
-
-                    <button>Comprar</button>
-                </div>
-
-                <div class="card">
-                    <div class="image-card">
-                        <span>NOVO</span>
-                        <img src="../public/image-card.png" alt="Imagem card">
-                    </div>
-
-                    <div>
-                        <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
-                        <div>
-                            <p>R$ 100,00</p>
-                            <h2>R$ 79,90</h2>
-                            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
-                        </div>
-                    </div>
-
-                    <button>Comprar</button>
-                </div>
-
-                <div class="card">
-                    <div class="image-card">
-                        <span>NOVO</span>
-                        <img src="../public/image-card.png" alt="Imagem card">
-                    </div>
-
-                    <div>
-                        <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
-                        <div>
-                            <p>R$ 100,00</p>
-                            <h2>R$ 79,90</h2>
-                            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
-                        </div>
-                    </div>
-
-                    <button>Comprar</button>
-                </div>
+                <button class="carousel-seta carousel-seta-dir">
+                    <img src="../public/arrow-right.svg" alt="Ícone de seta para a esquerda">
+                </button>
+    
+                <div class="carousel-indicator">
+            </div>
+                
             </div>
         </section>
 
         <section class="avanti-banner">
             <img src="../public/banners/avanti-banner.png" alt="Banner da Avanti">
-            <div>
+            <div class="avt-text">
                 <p>Entre em contato conosco e verifique a disponibilidade para sua região!</p>
             </div>
         </section>

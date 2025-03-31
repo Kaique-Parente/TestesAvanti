@@ -1,0 +1,24 @@
+.banner1 {
+    gap: 37.5px;
+
+    div:nth-child(1) {
+        width: 652px;
+        height: 747px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        background-color: rgba(194, 194, 194, 1);
+    }
+}
+
+.bn1-text {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+
+    h2 {
+        font-size: 30px;
+    }
+}
