@@ -9,38 +9,41 @@
 
     <title>Home</title>
 
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="../src/styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
         rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div id="desconto"><h5>Ganhe <span>R$10,00</span> de desconto no seu primeiro pedido. Utilize o cupom <span>DESCONTO10</span></h5></div>
+        <div id="desconto">
+            <h5>Ganhe <span>R$10,00</span> de desconto no seu primeiro pedido. Utilize o cupom <span>DESCONTO10</span>
+            </h5>
+        </div>
 
         <div id="navbar">
             <div id="navbar-content">
-                <img id="navbar-logo" src="./images/logo.png" alt="Logo Avanti">
+                <img id="navbar-logo" src="../public/logo.png" alt="Logo Avanti">
                 <div id="navbar-input">
                     <input type="text" placeholder="Digite aqui o que você procura">
-                    <img src="./images/search.svg" alt="Ícone de lupa">
+                    <img src="../public/search.svg" alt="Ícone de lupa">
                 </div>
                 <div id="navbar-icons">
                     <div>
-                        <img src="./images/user.svg" alt="Ícone de user">
+                        <img src="../public/user.svg" alt="Ícone de user">
                         <span>Olá,<br>
                             Nome cliente!
                         </span>
                     </div>
                     <div id="carrinho">
-                        <img src="./images/carrinho.svg" alt="Ícone de carrinho">
+                        <img src="../public/carrinho.svg" alt="Ícone de carrinho">
                         <span>2</span>
                     </div>
                 </div>
             </div>
             <div id="navbar-links">
                 <button>
-                    <img src="./images/details.svg" alt="Ícone Detalhes">
+                    <img src="../public/details.svg" alt="Ícone Detalhes">
                     <span><strong>Todas as Categorias</strong></span>
                 </button>
                 <button>
@@ -73,173 +76,260 @@
 
     <main>
         <div id="principal-container">
-            <img src="./images/background-principal.png" alt="Imagem Background">
+            <img src="../public/banners/principal-banner.png" alt="Imagem Background">
             <div id="principal-content">
-                <img src="./images/image-principal.png" alt="Imagem Background">
+                <img src="../public/banners/image-principal.png" alt="Imagem Background">
                 <div>
                     <h1><strong>SUPER</strong>SALE</h1>
                     <p>ITENS SELECIONADOS COM ATÉ</p>
                     <h2>50%OFF</h2>
                 </div>
-            </div> 
+            </div>
         </div>
 
         <section class="lancamentos">
-            <div id="lancamentos-title">
+            <div class="carousel-title">
                 <h2>Lançamentos</h2>
                 <a href="">Ver mais</a>
             </div>
 
-            <div class="carousel-container">
-                <div class="card">
-                    <div class="card-image">
-                        <span>NOVO</span>
-                        <img src="./images/image-card.png" alt="Imagem card">
-                    </div>
+            <div class="carousel">
+                <button class="carousel-seta carousel-seta-esq">
+                    <img src="../public/arrow-left.svg" alt="Ícone de seta para a esquerda">
+                </button>
 
-                    <div class="card-text">
-                        <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
-                        <div>
-                            <p>R$ 100,00</p>
-                            <h2>R$ 79,90</h2>
-                            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                <div class="carousel-wrapper">
+                    <div class="carousel-container">
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
+                        </div>
+    
+                        <div class="card">
+                            <div class="card-image">
+                                <span>NOVO</span>
+                                <img src="../public/image-card.png" alt="Imagem card">
+                            </div>
+    
+                            <div class="card-text">
+                                <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
+                                <div>
+                                    <p>R$ 100,00</p>
+                                    <h2>R$ 79,90</h2>
+                                    <p>Ou em até <strong>10x de R$ 7,90</strong></p>
+                                </div>
+                            </div>
+    
+                            <button class="card-button">Comprar</button>
                         </div>
                     </div>
-
-                    <button>Comprar</button>
                 </div>
-
-                <div class="card">
-                    <div class="image-card">
-                        <span>NOVO</span>
-                        <img src="./images/image-card.png" alt="Imagem card">
-                    </div>
-
-                    <div>
-                        <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
-                        <div>
-                            <p>R$ 100,00</p>
-                            <h2>R$ 79,90</h2>
-                            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
-                        </div>
-                    </div>
-
-                    <button>Comprar</button>
-                </div>
-
-                <div class="card">
-                    <div class="image-card">
-                        <span>NOVO</span>
-                        <img src="./images/image-card.png" alt="Imagem card">
-                    </div>
-
-                    <div>
-                        <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
-                        <div>
-                            <p>R$ 100,00</p>
-                            <h2>R$ 79,90</h2>
-                            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
-                        </div>
-                    </div>
-
-                    <button>Comprar</button>
-                </div>
-
-                <div class="card">
-                    <div class="image-card">
-                        <span>NOVO</span>
-                        <img src="./images/image-card.png" alt="Imagem card">
-                    </div>
-
-                    <div>
-                        <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
-                        <div>
-                            <p>R$ 100,00</p>
-                            <h2>R$ 79,90</h2>
-                            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
-                        </div>
-                    </div>
-
-                    <button>Comprar</button>
-                </div>
-
-                <div class="card">
-                    <div class="image-card">
-                        <span>NOVO</span>
-                        <img src="./images/image-card.png" alt="Imagem card">
-                    </div>
-
-                    <div>
-                        <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
-                        <div>
-                            <p>R$ 100,00</p>
-                            <h2>R$ 79,90</h2>
-                            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
-                        </div>
-                    </div>
-
-                    <button>Comprar</button>
-                </div>
-
-                <div class="card">
-                    <div class="image-card">
-                        <span>NOVO</span>
-                        <img src="./images/image-card.png" alt="Imagem card">
-                    </div>
-
-                    <div>
-                        <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
-                        <div>
-                            <p>R$ 100,00</p>
-                            <h2>R$ 79,90</h2>
-                            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
-                        </div>
-                    </div>
-
-                    <button>Comprar</button>
-                </div>
-
-                <div class="card">
-                    <div class="image-card">
-                        <span>NOVO</span>
-                        <img src="./images/image-card.png" alt="Imagem card">
-                    </div>
-
-                    <div>
-                        <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
-                        <div>
-                            <p>R$ 100,00</p>
-                            <h2>R$ 79,90</h2>
-                            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
-                        </div>
-                    </div>
-
-                    <button>Comprar</button>
-                </div>
-
-                <div class="card">
-                    <div class="image-card">
-                        <span>NOVO</span>
-                        <img src="./images/image-card.png" alt="Imagem card">
-                    </div>
-
-                    <div>
-                        <h3>Lorem ipsum dolor sit amet consectetuer adipiscing elit </h3>
-                        <div>
-                            <p>R$ 100,00</p>
-                            <h2>R$ 79,90</h2>
-                            <p>Ou em até <strong>10x de R$ 7,90</strong></p>
-                        </div>
-                    </div>
-
-                    <button>Comprar</button>
-                </div>
+                <button class="carousel-seta carousel-seta-dir">
+                    <img src="../public/arrow-right.svg" alt="Ícone de seta para a esquerda">
+                </button>
+    
+                <div class="carousel-indicator">
+            </div>
+                
             </div>
         </section>
 
         <section class="banner-1">
             <div>
-                <img src="./images/banners/primeiro-banner.png" alt="Imagem Caneca Avanti">
+                <img src="../public/banners/primeiro-banner.png" alt="Imagem Caneca Avanti">
             </div>
             <div>
                 <h2>LOREM IPSUM</h2>
@@ -267,7 +357,7 @@
 
                 <div>
                     <div>
-                        <img src="./images/pin.svg" alt="Ícone Pin mapa">
+                        <img src="../public/pin.svg" alt="Ícone Pin mapa">
                         <span>
                             Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
                             ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
@@ -275,7 +365,7 @@
                     </div>
 
                     <div>
-                        <img src="./images/pin.svg" alt="Ícone Pin mapa">
+                        <img src="../public/pin.svg" alt="Ícone Pin mapa">
                         <span>
                             Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
                             ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
@@ -283,7 +373,7 @@
                     </div>
 
                     <div>
-                        <img src="./images/pin.svg" alt="Ícone Pin mapa">
+                        <img src="../public/pin.svg" alt="Ícone Pin mapa">
                         <span>
                             Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
                             ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
@@ -293,13 +383,13 @@
             </div>
 
             <div>
-                <img src="./images/banners/segundo-banner.png" alt="Imagem Caneca Avanti">
+                <img src="../public/banners/segundo-banner.png" alt="Imagem Caneca Avanti">
             </div>
         </section>
 
         <section class="banner-1">
             <div>
-                <img src="./images/banners/primeiro-banner.png" alt="Imagem Caneca Avanti">
+                <img src="../public/banners/primeiro-banner.png" alt="Imagem Caneca Avanti">
             </div>
             <div>
                 <h2>LOREM IPSUM</h2>
@@ -331,7 +421,7 @@
                 <div class="card">
                     <div class="image-card">
                         <span>NOVO</span>
-                        <img src="./images/image-card.png" alt="Imagem card">
+                        <img src="../public/image-card.png" alt="Imagem card">
                     </div>
 
                     <div>
@@ -349,7 +439,7 @@
                 <div class="card">
                     <div class="image-card">
                         <span>NOVO</span>
-                        <img src="./images/image-card.png" alt="Imagem card">
+                        <img src="../public/image-card.png" alt="Imagem card">
                     </div>
 
                     <div>
@@ -367,7 +457,7 @@
                 <div class="card">
                     <div class="image-card">
                         <span>NOVO</span>
-                        <img src="./images/image-card.png" alt="Imagem card">
+                        <img src="../public/image-card.png" alt="Imagem card">
                     </div>
 
                     <div>
@@ -385,7 +475,7 @@
                 <div class="card">
                     <div class="image-card">
                         <span>NOVO</span>
-                        <img src="./images/image-card.png" alt="Imagem card">
+                        <img src="../public/image-card.png" alt="Imagem card">
                     </div>
 
                     <div>
@@ -403,7 +493,7 @@
                 <div class="card">
                     <div class="image-card">
                         <span>NOVO</span>
-                        <img src="./images/image-card.png" alt="Imagem card">
+                        <img src="../public/image-card.png" alt="Imagem card">
                     </div>
 
                     <div>
@@ -421,7 +511,7 @@
                 <div class="card">
                     <div class="image-card">
                         <span>NOVO</span>
-                        <img src="./images/image-card.png" alt="Imagem card">
+                        <img src="../public/image-card.png" alt="Imagem card">
                     </div>
 
                     <div>
@@ -439,7 +529,7 @@
                 <div class="card">
                     <div class="image-card">
                         <span>NOVO</span>
-                        <img src="./images/image-card.png" alt="Imagem card">
+                        <img src="../public/image-card.png" alt="Imagem card">
                     </div>
 
                     <div>
@@ -457,7 +547,7 @@
                 <div class="card">
                     <div class="image-card">
                         <span>NOVO</span>
-                        <img src="./images/image-card.png" alt="Imagem card">
+                        <img src="../public/image-card.png" alt="Imagem card">
                     </div>
 
                     <div>
@@ -475,7 +565,7 @@
         </section>
 
         <section id="avanti-banner">
-            <img src="./images/banners/avanti-banner.png" alt="Banner da Avanti">
+            <img src="../public/banners/avanti-banner.png" alt="Banner da Avanti">
             <div>
                 <p>Entre em contato conosco e verifique a disponibilidade para sua região!</p>
             </div>
@@ -499,12 +589,12 @@
     <footer>
         <div>
             <div>
-                <img src="./images/logo.png" alt="Logo Avanti">
+                <img src="../public/logo.png" alt="Logo Avanti">
                 <div>
-                    <img src="./images/socialMedias/instagram.svg" alt="Ícone instagram">
-                    <img src="./images/socialMedias/facebook.svg" alt="Ícone facebook">
-                    <img src="./images/socialMedias/youtube.svg" alt="Ícone youtube">
-                    <img src="./images/socialMedias/tiktok.svg" alt="Ícone tiktok">
+                    <img src="../public/socialMedias/instagram.svg" alt="Ícone instagram">
+                    <img src="../public/socialMedias/facebook.svg" alt="Ícone facebook">
+                    <img src="../public/socialMedias/youtube.svg" alt="Ícone youtube">
+                    <img src="../public/socialMedias/tiktok.svg" alt="Ícone tiktok">
                 </div>
             </div>
             <div>
@@ -538,15 +628,15 @@
         </div>
 
         <div>
-            <img src="./images/paymentMethods/amex.svg" alt="Ícone logo amex">
-            <img src="./images/paymentMethods/mastercard.svg" alt="Ícone logo mastercard">
-            <img src="./images/paymentMethods/visa.svg" alt="Ícone logo visa">
-            <img src="./images/paymentMethods/hipercard.svg" alt="Ícone logo hipercard">
-            <img src="./images/paymentMethods/elo.svg" alt="Ícone logo elo">
-            <img src="./images/paymentMethods/diners-club.svg" alt="Ícone logo diners club">
-            <img src="./images/paymentMethods/paypal.svg" alt="Ícone logo PayPal">
-            <img src="./images/paymentMethods/pix.svg" alt="Ícone logo pix">
-            <img src="./images/paymentMethods/boleto.svg" alt="Ícone logo boleto">
+            <img src="../public/paymentMethods/amex.svg" alt="Ícone logo amex">
+            <img src="../public/paymentMethods/mastercard.svg" alt="Ícone logo mastercard">
+            <img src="../public/paymentMethods/visa.svg" alt="Ícone logo visa">
+            <img src="../public/paymentMethods/hipercard.svg" alt="Ícone logo hipercard">
+            <img src="../public/paymentMethods/elo.svg" alt="Ícone logo elo">
+            <img src="../public/paymentMethods/diners-club.svg" alt="Ícone logo diners club">
+            <img src="../public/paymentMethods/paypal.svg" alt="Ícone logo PayPal">
+            <img src="../public/paymentMethods/pix.svg" alt="Ícone logo pix">
+            <img src="../public/paymentMethods/boleto.svg" alt="Ícone logo boleto">
         </div>
 
         <div>
@@ -560,13 +650,15 @@
             </p>
 
             <div>
-                <img src="./images/enterprise/lets-encrypt.png" alt="Ícone logo Let's Encrypt">
-                <img src="./images/enterprise/vtex-certified.png" alt="Ícone logo Vtex certified">
-                <img src="./images/logo.png" alt="Ícone logo Avanti">
-                <img src="./images/enterprise/vtex.png" alt="Ícone logo Vtex">
+                <img src="../public/enterprise/lets-encrypt.png" alt="Ícone logo Let's Encrypt">
+                <img src="../public/enterprise/vtex-certified.png" alt="Ícone logo Vtex certified">
+                <img src="../public/logo.png" alt="Ícone logo Avanti">
+                <img src="../public/enterprise/vtex.png" alt="Ícone logo Vtex">
             </div>
         </div>
     </footer>
+
+    <script src="../src/js/script.js"></script>
 </body>
 
 </html>
