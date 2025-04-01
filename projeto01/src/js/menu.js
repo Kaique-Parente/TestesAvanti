@@ -21,6 +21,13 @@ document.addEventListener("DOMContentLoaded", function () {
             });
         });
 
+        todasCategorias.addEventListener("click", () => {
+            menuTodosContainer.classList.toggle("show");
+            imagesCategorias.forEach((image) => {
+                image.classList.toggle("hidden");
+            });
+        });
+
         menuTodosContainer.addEventListener("mouseleave", () => {
             menuTodosContainer.classList.remove("show");
         });
