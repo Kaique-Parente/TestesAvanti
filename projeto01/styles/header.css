@@ -47,7 +47,7 @@ header {
 }
 
 .navbar-content {
-    width: 1261px;
+    max-width: 1261px;
     height: 38px;
 
     display: flex;
@@ -161,5 +161,42 @@ header {
 
     button:hover span::after {
         transform: scaleX(1);
+    }
+}
+
+/*  Media queries */
+
+@media (max-width: 1260px) {
+    .navbar-content{
+        justify-content: center;
+    }
+
+    .navbar-links{
+        gap: 35px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar-icons{
+        margin-left: 20px;
+    }
+
+    .navbar-links{
+        gap: 25px;
+    }
+
+    .bn2-content{
+        margin: 40px 0px;
+    }
+
+    .bn2-containerImg div{
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .navbar-links{
+        gap: 15px;
     }
 }

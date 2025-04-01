@@ -81,3 +81,11 @@
         margin-left: 24px;
     }
 }
+
+/* Media queries */
+
+@media (max-width: 1120px) {
+    .footer-details p{
+        padding: 0px 50px;
+    }
+}

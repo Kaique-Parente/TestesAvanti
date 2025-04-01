@@ -14,7 +14,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
         function getVisibleCards() {
             if (window.innerWidth >= 1200) return 5;
-            if (window.innerWidth >= 768) return 3;
+            if (window.innerWidth >= 1036) return 4;
+            if (window.innerWidth >= 830) return 3;
             return 2;
         }
 

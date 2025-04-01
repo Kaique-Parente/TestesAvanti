@@ -59,8 +59,6 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-    
 }
 
 /* Lançamentos */
@@ -83,4 +81,66 @@ section:nth-of-type(5) {
     padding: 0px 372px;
 
     font-size: 18px;
+}
+
+/* Media queries */
+
+@media (max-width: 1860px) {
+    section {
+        padding: 0px 300px;
+    }
+
+    .banner{
+        padding: 0px 358px !important;
+    }
+}
+
+@media (max-width: 1780px) {
+    section {
+        padding: 0px 180px;
+    }
+
+    .banner{
+        padding: 0px 238px !important;
+    }
+}
+
+@media (max-width: 1600px) {
+    section {
+        padding: 0px 120px;
+    }
+
+    .banner{
+        padding: 0px 178px !important;
+    }
+}
+
+@media (max-width: 1421px) {
+    section {
+        padding: 0px 80px;
+    }
+
+    .banner{
+        padding: 0px 138px !important;
+    }
+}
+
+@media (max-width: 1314px) {
+    section {
+        padding: 0px 40px;
+    }
+
+    .banner{
+        padding: 0px 98px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .banner-container-image:not(:nth-child(2)){
+        height: 550px !important;
+    }
+
+    .banner-container-image img{
+        width: 350px;
+    }
 }
