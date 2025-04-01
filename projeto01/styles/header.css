@@ -34,6 +34,16 @@ header {
 .navbar {
     display: flex;
     flex-direction: column;
+
+    .menu-ativo{
+        color: rgba(0, 92, 255, 1);
+        font-weight: 700;
+    }
+
+    button:hover, a:hover{
+        color: rgba(0, 92, 255, 1);
+        font-weight: 700;
+    }
 }
 
 .navbar-content {
@@ -107,6 +117,10 @@ header {
         color: rgba(255, 255, 255, 1);
         background-color: rgba(0, 92, 255, 1);
     }
+}
+
+.navbar-links-menu{
+    position: relative;
 }
 
 .navbar-links {
