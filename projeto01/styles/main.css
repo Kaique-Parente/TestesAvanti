@@ -83,6 +83,12 @@ section:nth-of-type(5) {
     font-size: 18px;
 }
 
+.bn2-containerImg div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Media queries */
 
 @media (max-width: 1860px) {
@@ -142,5 +148,22 @@ section:nth-of-type(5) {
 
     .banner-container-image img{
         width: 350px;
+    }
+
+    .bn2-content{
+        margin: 40px 0px;
+    }
+
+    .bn2-containerImg div{
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 980px) {
+    .bn2-containerImg div{
+        width: 25px !important;
+        height: 25px !important;
+        padding: 30px !important;
     }
 }

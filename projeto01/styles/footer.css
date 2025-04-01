@@ -89,3 +89,9 @@
         padding: 0px 50px;
     }
 }
+
+@media (max-width: 980px) {
+    .footer-details p{
+        padding: 0px 150px;
+    }
+}

@@ -34,6 +34,7 @@ header {
 .navbar {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
     .menu-ativo{
         color: rgba(0, 92, 255, 1);
@@ -171,6 +172,10 @@ header {
         justify-content: center;
     }
 
+    .navbar-logo{
+        margin-right: 20px;
+    }
+
     .navbar-links{
         gap: 35px;
     }
@@ -184,19 +189,32 @@ header {
     .navbar-links{
         gap: 25px;
     }
-
-    .bn2-content{
-        margin: 40px 0px;
-    }
-
-    .bn2-containerImg div{
-        width: 45px;
-        height: 45px;
-    }
 }
 
 @media (max-width: 1050px) {
     .navbar-links{
         gap: 15px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .navbar{
+        flex-direction: row-reverse;
+    }
+
+    .navbar-links button:nth-child(1){
+        margin-right: 20px;
+    }
+
+    .navbar-links button:not(:nth-child(1)){
+        display: none;
+    }
+
+    .navbar-links span{
+        display: none;
+    }
+
+    .navbar-icons div:nth-child(1) span{
+        display: none;
     }
 }
