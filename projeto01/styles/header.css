@@ -60,6 +60,8 @@ header {
 .navbar-logo {
     width: 152px;
     height: 27px;
+
+    cursor: pointer;
 }
 
 .navbar-input {
