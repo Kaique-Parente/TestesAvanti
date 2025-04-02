@@ -89,6 +89,11 @@ section:nth-of-type(5) {
     align-items: center;
 }
 
+.cadastro-txt div{
+    display: flex;
+    align-items: center;
+}
+
 /* Media queries */
 
 @media (max-width: 1860px) {
@@ -209,4 +214,40 @@ section:nth-of-type(5) {
     .cadastro-txt{
         padding: 64px 50px !important;
     }
+}
+
+@media (max-width: 900px) {
+    .navbar-input input{
+        width: 350px;
+    }
+
+    .principal-container {
+        height: 300px;
+
+        img{
+            width: 450px;
+        }
+        h1{
+            font-size: 50px;
+        }
+        p{
+            font-size: 10px;
+        }
+        h2{
+            font-size: 30px;
+        }
+    }
+
+    .banner {
+        padding: 0px 38px !important;
+    }
+
+    .cadastro-txt{
+        flex-direction: column;
+        padding: 64px 120px !important;
+    }
+
+    .cadastro-txt input:not(:nth-last-child(2)), .cadastro-txt button {
+        width: 100% !important; 
+    } 
 }
