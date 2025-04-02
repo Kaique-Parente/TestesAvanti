@@ -16,7 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
             if (window.innerWidth >= 1200) return 5;
             if (window.innerWidth >= 1036) return 4;
             if (window.innerWidth >= 830) return 3;
-            return 2;
+            if (window.innerWidth >= 530) return 2;
+            return 1;
         }
 
         function createIndicators() {

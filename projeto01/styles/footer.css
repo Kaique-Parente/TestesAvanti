@@ -175,3 +175,9 @@
         margin-bottom: 140px;
     }
 }
+
+@media (max-width: 450px) {
+    .link-container {
+        width: 350px;
+    }
+}
