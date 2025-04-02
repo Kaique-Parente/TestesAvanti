@@ -154,3 +154,19 @@
         cursor: pointer;
     }
 }
+
+/* Media queries */
+
+@media (max-width: 1000px) {
+    .menu-todos-container{
+        width: auto !important;
+    }
+
+    .menu-produto{
+        display: none;
+    }
+
+    .menu-links{
+        padding: 0px 30px;
+    }
+}
